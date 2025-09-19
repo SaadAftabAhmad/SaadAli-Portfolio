@@ -35,7 +35,7 @@ const Sidebar = ({ isOpen, onClose, homeClick, aboutClick, servicesClick, experi
             className={`fixed top-0 right-0 h-full w-[85%] max-w-sm max-[500px]:w-full bg-[#0f172a] z-[1000] shadow-2xl border-l border-white/10`}
           >
             <div className="flex justify-between items-center py-4 px-6 border-b border-white/10">
-              <p style={{ fontFamily: "cursive" }} className="text-white text-[20px] max-[800px]:text-[17px] font-[600]">Ahtesham <span className="text-[#f71735]">Javed</span></p>
+              <p style={{ fontFamily: "cursive" }} className="text-white text-[20px] max-[800px]:text-[17px] font-[600]">Saad <span className="text-[#f71735]">Ali</span></p>
               <button onClick={onClose} className="bg-[#f71735] p-2 rounded-[5px]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 256 256">
                   <path fill="#ffffff" d="M224.319 17.102c6.28 5.496 7.018 14.97 1.745 21.367l-.3.352l-77.707 88.791l77.707 88.791c5.599 6.397 4.951 16.121-1.445 21.72c-6.28 5.496-15.769 4.972-21.41-1.103l-.31-.343l-74.996-85.694l-74.995 85.694c-5.599 6.396-15.323 7.044-21.72 1.445c-6.28-5.496-7.018-14.97-1.745-21.366l.3-.353l77.706-88.79L29.443 38.82c-5.599-6.397-4.951-16.121 1.446-21.72c6.28-5.496 15.768-4.972 21.41 1.103l.309.344l74.995 85.692L202.6 18.548c5.598-6.397 15.322-7.045 21.719-1.446" />
