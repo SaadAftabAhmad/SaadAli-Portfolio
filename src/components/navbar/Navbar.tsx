@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../logo/Logo";
 
 type props = {
   homeClick: () => void;
